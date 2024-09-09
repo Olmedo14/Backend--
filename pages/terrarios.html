@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../JavaScript/terrarios.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../Assets/icono.png" type="image/x-icon">
+    <title>Jardines Eternos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuResponsive" aria-controls="menuResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <a class="navbar-brand mx-auto" href="../index.html">
+              <img src="../Assets/icono.png" alt="Logo" class="d-inline-block align-text-top">
+              Jardines Eternos
+            </a>
+        
+            <div class="collapse navbar-collapse justify-content-end" id="menuResponsive">
+              <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./kokedamas.html">Kokedamas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Terrarios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./extras.html">Extras</a>
+                </li>
+              </ul>
+            </div>
+        
+            <div class="carrito">
+              <a href="../pages/carrito.html"><img src="../Assets/carrito.png" alt="carrito de compras"></a>
+          </div>
+          <div class="carrito">
+            <a href="../pages/iniciosesion.html"><img src="../Assets/iniciosesion.png" alt="iniciosesion"></a>
+        </div>
+          </div>
+        </nav>
+      </header>
+    <main>
+        <section>
+            <div class="main-container">
+                <div class="container">
+                    <div class="product-card">
+                        <img class="product-image" src="../Assets/1.jpg" alt="Terrario Desértico">
+                        <h2 class="product-name">Terrario Desértico</h2>
+                        <p class="product-price">$15000</p>
+                        <button class="add-to-cart-btn" onclick="addToCart('Terrario Desértico', 15000)">Agregar al carrito</button>
+                    </div>
+                    <div class="product-card">
+                        <img class="product-image" src="../Assets/2.jfif" alt="Terrario Boscoso">
+                        <h2 class="product-name">Terrario Boscoso</h2>
+                        <p class="product-price">$20000</p>
+                        <button class="add-to-cart-btn" onclick="addToCart('Terrario Boscoso', 20000)">Agregar al carrito</button>
+                    </div>
+                    <div class="product-card">
+                        <img class="product-image" src="../Assets/3.jfif" alt="Terrario Pantanoso">
+                        <h2 class="product-name">Terrario Pantanoso</h2>
+                        <p class="product-price">$22000</p>
+                        <button class="add-to-cart-btn" onclick="addToCart('Terrario Pantanoso', 22000)">Agregar al carrito</button>
+                    </div>
+                    <div class="product-card">
+                        <img class="product-image" src="../Assets/4.webp" alt="Terrario Montañoso">
+                        <h2 class="product-name">Terrario Montañoso</h2>
+                        <p class="product-price">$30000</p>
+                        <button class="add-to-cart-btn" onclick="addToCart('Terrario Montañoso', 30000)">Agregar al carrito</button>
+                    </div>
+                </div>
+              
+                <div class="cart">
+                    <h2>Carrito de Compras</h2>
+                    <ul id="cartItems"></ul>
+                    <p>Total: $<span id="cartTotal">0.00</span></p>
+                </div>
+              </div>
+        </section>
+        <div>
+            <a href="https://wa.me/2617039848" target="_blank" class="whatsapp-icon">
+                <img src="../Assets/wsp-icon.png" alt="WhatsApp">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="pie-pagina-1">
+            <h2>Navegación</h2>
+            <nav class="pie-pagina-nav">
+              <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./kokedamas.html">Kokedamas</a></li>
+                <li><a href="#">Terrarios</a></li>
+                <li><a href="./extras.html">Extras</a></li>
+              </ul>
+            </nav>
+        </div>
+        <div class="pie-pagina-2">
+            <h2 class="pie-pagina-T">Contacto</h2>
+            <a href="#"><img src="../Assets/ig.png" alt="Instagram"></a>
+            <a href="#"><img src="../Assets/tiktok.png" alt="Tik Tok"></a>
+            <a href="mailto:jo608411@gmail.com"><img src="../Assets/mail.png" alt="Mail"></a>
+        </div>
+        <a class="byc" href="#">Bases y Condiciones</a>
+    </footer>
+</body>
+</html>

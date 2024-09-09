@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../Assets/icono.png" type="image/x-icon">
+    <title>Jardines Eternos</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuResponsive" aria-controls="menuResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <a class="navbar-brand mx-auto" href="../index.html">
+            <img src="../Assets/icono.png" alt="Logo" class="d-inline-block align-text-top">
+            Jardines Eternos
+          </a>
+      
+          <div class="collapse navbar-collapse justify-content-end" id="menuResponsive">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./kokedamas.html">Kokedamas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./terrarios.html">Terrarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./extras.html">Extras</a>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="carrito">
+            <a href="../pages/carrito.html"><img src="../Assets/carrito.png" alt="carrito de compras"></a>
+        </div>
+        <div class="carrito">
+          <a href="../pages/iniciosesion.html"><img src="../Assets/iniciosesion.png" alt="iniciosesion"></a>
+      </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="seccion-quienes-somos">
+            <h2 class="titulo-seccion">¿QUIÉNES SOMOS?</h2>
+            <p class="subtitulo">Expertos en la creación de terrarios y kokedamas artesanales, hechos con amor y dedicación.</p>
+            <div class="contenido-seccion">
+                <div class="texto-seccion">
+                    <p>
+                        En nuestra tienda, nos especializamos en ofrecer terrarios y kokedamas únicos, creados con los mejores materiales y una atención especial a cada detalle. 
+                        Nuestro objetivo es llevar un pedazo de naturaleza a tu hogar, oficina o cualquier espacio que desees embellecer.
+                    </p>
+                    <p>
+                        Con años de experiencia en el cuidado y diseño de plantas, estamos comprometidos a brindar productos de calidad y servicio excepcional. 
+                        Cada pieza que creamos es una obra de arte viva, diseñada para traer serenidad y vida verde a cualquier ambiente.
+                    </p>
+                </div>
+                <div class="imagen-seccion">
+                    <img src="../Assets/imagen-about.jpg" alt="Terrarios y Kokedamas">
+                </div>
+            </div>
+        </section>
+    
+        <section class="seccion-destacados">
+            <h3 class="titulo-destacados">¿Por qué elegir nuestros productos?</h3>
+            <div class="contenedor-destacados">
+                <div class="destacado1">
+                    <img src="../Assets/icono-calidad.png" alt="Calidad">
+                    <h4>Calidad</h4>
+                    <p>Materiales de primera calidad y plantas cuidadosamente seleccionadas.</p>
+                </div>
+                <div class="destacado2">
+                    <img src="../Assets/icono-stars.png" alt="Experiencia">
+                    <h4>Experiencia</h4>
+                    <p>Años de experiencia en el diseño y mantenimiento de terrarios y kokedamas.</p>
+                </div>
+                <div class="destacado3">
+                    <img src="../Assets/icono-personalizacion.png" alt="Personalización">
+                    <h4>Personalización</h4>
+                    <p>Cada terrario y kokedama es diseñado a medida según tus preferencias.</p>
+                </div>
+            </div>
+        </section>
+        <section class="acordeon-main">
+            <img src="../Assets/img-faq.jpg" alt="">
+            <div class="acordeon" id="acordeonPreguntasFrecuentes">
+                <div class="item-acordeon">
+                  <h2 class="encabezado-acordeon" id="encabezadoPago">
+                    <button class="boton-acordeon" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePago" aria-expanded="true" aria-controls="collapsePago">
+                      ¿Cuáles son los métodos de pago disponibles?
+                    </button>
+                  </h2>
+                  <div id="collapsePago" class="colapso-acordeon collapse show" aria-labelledby="encabezadoPago" data-bs-parent="#acordeonPreguntasFrecuentes">
+                    <div class="cuerpo-acordeon">
+                      Aceptamos pagos mediante tarjetas de crédito, débito, y transferencias bancarias. También ofrecemos la opción de pago contra entrega en ciertas áreas.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="item-acordeon">
+                  <h2 class="encabezado-acordeon" id="encabezadoMantenimiento">
+                    <button class="boton-acordeon collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMantenimiento" aria-expanded="false" aria-controls="collapseMantenimiento">
+                      ¿Cómo debo mantener mi kokedama o terrario?
+                    </button>
+                  </h2>
+                  <div id="collapseMantenimiento" class="colapso-acordeon collapse" aria-labelledby="encabezadoMantenimiento" data-bs-parent="#acordeonPreguntasFrecuentes">
+                    <div class="cuerpo-acordeon">
+                      Para mantener tu kokedama, riega sumergiéndola en agua cada semana. Los terrarios deben mantenerse en un ambiente húmedo y recibir luz indirecta.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="item-acordeon">
+                  <h2 class="encabezado-acordeon" id="encabezadoEnvio">
+                    <button class="boton-acordeon collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEnvio" aria-expanded="false" aria-controls="collapseEnvio">
+                      ¿Cuánto tiempo tarda el envío?
+                    </button>
+                  </h2>
+                  <div id="collapseEnvio" class="colapso-acordeon collapse" aria-labelledby="encabezadoEnvio" data-bs-parent="#acordeonPreguntasFrecuentes">
+                    <div class="cuerpo-acordeon">
+                      Los envíos dentro de la ciudad tardan entre 2 a 3 días hábiles. Para envíos a otras regiones, el tiempo estimado es de 5 a 7 días hábiles.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="item-acordeon">
+                  <h2 class="encabezado-acordeon" id="encabezadoGarantia">
+                    <button class="boton-acordeon collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGarantia" aria-expanded="false" aria-controls="collapseGarantia">
+                      ¿Ofrecen garantía en sus productos?
+                    </button>
+                  </h2>
+                  <div id="collapseGarantia" class="colapso-acordeon collapse" aria-labelledby="encabezadoGarantia" data-bs-parent="#acordeonPreguntasFrecuentes">
+                    <div class="cuerpo-acordeon">
+                      Sí, todos nuestros productos cuentan con una garantía de 30 días. Si la planta muestra signos de deterioro dentro de este periodo, ofrecemos un reemplazo gratuito.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <div>
+            <a href="https://wa.me/2617039848" target="_blank" class="whatsapp-icon">
+                <img src="../Assets/wsp-icon.png" alt="WhatsApp">
+            </a>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+    <footer>
+        <div class="pie-pagina-1">
+            <h2>Navegación</h2>
+            <nav class="pie-pagina-nav">
+              <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="./kokedamas.html">Kokedamas</a></li>
+                <li><a href="./terrarios.html">Terrarios</a></li>
+                <li><a href="./extras.html">Extras</a></li>
+              </ul>
+            </nav>
+        </div>
+        <div class="pie-pagina-2">
+            <h2 class="pie-pagina-T">Contacto</h2>
+            <a href="#"><img src="../Assets/ig.png" alt="Instagram"></a>
+            <a href="#"><img src="../Assets/tiktok.png" alt="Tik Tok"></a>
+            <a href="mailto:jo608411@gmail.com"><img src="../Assets/mail.png" alt="Mail"></a>
+        </div>
+        <a class="byc" href="#">Bases y Condiciones</a>
+    </footer>
+</body>
+</html>
